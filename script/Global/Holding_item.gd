@@ -1,4 +1,4 @@
 extends Node
 
-var quantity_trash : int = 0
-var quantity_trash_burned : int = 0 
+var plastic_and_biomass : int = 0
+var plastic_and_biomass_burned : int = 0 

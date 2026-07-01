@@ -138,7 +138,7 @@ func _physics_process(_delta: float) -> void:
 		granular_engine.update_physics(velocity.length(), MaxShipsSPEED, get_process_delta_time())
 
 func _process(_delta: float) -> void: 
-	if HoldingItem.quantity_trash > 0 :
+	if HoldingItem.plastic_and_biomass > 0 :
 		item_displey.visible = true
 	else :
 		item_displey.visible = false

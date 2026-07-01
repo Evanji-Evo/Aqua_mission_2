@@ -19,7 +19,7 @@ func _ready():
 	process_mode = Node.PROCESS_MODE_ALWAYS # Keep running when paused
 	
 	music_player = AudioStreamPlayer.new()
-	music_player.bus = "Master" # Or "Music" if you have buses
+	music_player.bus = "Master" 
 	music_player.finished.connect(_on_music_finished)
 	add_child(music_player)
 	
